@@ -1,0 +1,9 @@
+# Folders
+/Data
+/Intermediates
+/Outputs
+/Libraries
+/Temporary
+
+# Files
+.Rhistory
