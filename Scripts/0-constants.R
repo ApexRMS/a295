@@ -15,6 +15,7 @@ library(sf)
 library(tidyverse)
 library(ggpubr)
 library(rsyncrosim)
+library(smoothr)
 
 
 
@@ -25,9 +26,17 @@ rootDir <- "."
 dataDir          <- file.path(rootDir, "Data")
 intermediatesDir <- file.path(rootDir, "Intermediates")
 outputDir <- file.path(rootDir, "Outputs")
+libraryDir <- file.path(rootDir, "Libraries")
 
 # Composite directories
 tabularDataDir <- file.path(dataDir, "Tabular")
 spatialDataDir <- file.path(dataDir, "Spatial")
+
+
+
+# Parameters -------------------------------------------------------------------
+
+# Target CRS
+targetCRS <- "EPSG:3162"
 
 
