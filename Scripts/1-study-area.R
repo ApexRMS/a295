@@ -21,8 +21,6 @@ source("Scripts/0-constants.R")
 studyAreaPoints <- read_csv(file.path(tabularDataDir, "Study area",
                                       "Vertices 20200610 DAG.csv"))
 
-# Target CRS
-targetCRS <- "EPSG:3162"
 # Buffer width (in km)
 focalAreaBuffer <- 2
 analysisAreaBuffer <- 20
