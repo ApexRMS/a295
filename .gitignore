@@ -4,6 +4,15 @@
 /Outputs
 /Libraries
 /Temporary
+/GIS data layers (Report 1) - 2023-12-15
+*.ssim.input
+*.ssim.output
+*.ssim.temp
+*.ssim.backup
+*.ssim.publish
+*.gdb
 
 # Files
 .Rhistory
+*.ssim
+*.zip
